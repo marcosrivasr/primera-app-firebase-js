@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#app {
+  width: 700px;
+  margin: 0 auto;
+}
+
+#user-info {
+  text-align: center;
+}
+#user-info img {
+  border-radius: 50%;
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+#user-info span {
+  display: block;
+  padding: 10px 0;
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  padding: 10px 5px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#todos-container li {
+  list-style: none;
+  padding: 15px 0;
+  font-size: 20px;
+  border-bottom: 1px solid #eee;
+}
+#todos-container li:hover {
+  background-color: #eee;
+}
+
+.hidden {
+  display: none;
+}
